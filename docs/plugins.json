@@ -496,7 +496,7 @@
     "en": "In-session \"Files\" tab for dsh Web: breadcrumb browsing of the active session's workspace with inline previews of sanitized Markdown, images, line-numbered text and PDF via read-only /dsh-files host routes; no write endpoints. Bilingual zh/en."
    },
    "npm": "dsh-file-explorer-kit",
-   "stars": 0,
+   "stars": 1,
    "createdAt": "2026-09-04",
    "install": "dsh plugin --profile web add dsh-file-explorer-kit",
    "added": "2026-09-06"
@@ -2041,7 +2041,7 @@
     "en": "Auto-resume for interrupted sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor and activity log."
    },
    "npm": "@weibaohui/dsh-continue",
-   "stars": 3,
+   "stars": 5,
    "createdAt": "2026-08-31",
    "install": "dsh plugin --profile web add @weibaohui/dsh-continue",
    "added": "2026-09-06"
@@ -2641,7 +2641,7 @@
     "en": "Automatic post-conversation retrospective that distills useful experience into reusable skills for the skill library, with approval mode and skill-library governance (archive/restore, never deletes directly)."
    },
    "npm": "@weibaohui/hermes-loop",
-   "stars": 7,
+   "stars": 9,
    "createdAt": "2026-08-31",
    "install": "dsh plugin --profile web add @weibaohui/hermes-loop",
    "added": "2026-09-06"
@@ -3721,7 +3721,7 @@
     "en": "One-click migration of skills from other agents into DeepSeek Harness: 14 platform detectors plus shared-layer recognition, same-name skill merging, no re-copying of existing skills, and rollback support."
    },
    "npm": null,
-   "stars": 4,
+   "stars": 5,
    "createdAt": "2026-08-20",
    "install": "dsh plugin --profile web add github:mjylfz/dsh-skill-mover",
    "added": "2026-08-23"
@@ -4051,7 +4051,7 @@
     "en": "Deterministic data profiling, cleaning, and verification: a ctx.dataQuality capability seam with three model tools and a frozen cross-plugin citation-checking contract — all computation in TypeScript, the model never does the math."
    },
    "npm": "dsh-data-quality",
-   "stars": 50,
+   "stars": 53,
    "createdAt": "2026-08-19",
    "install": "dsh plugin --profile web add dsh-data-quality",
    "added": "2026-09-13"
@@ -4081,7 +4081,7 @@
     "en": "Industry and company research domain pack for DeepSeek Harness: chain maps, public-source tracking, company cards, and auditable reports — every number traces to a source, every gap is declared."
    },
    "npm": "dsh-industry-research",
-   "stars": 205,
+   "stars": 214,
    "createdAt": "2026-08-19",
    "install": "dsh plugin --profile web add dsh-industry-research",
    "added": "2026-09-13"
@@ -4126,7 +4126,7 @@
     "en": "Verifiable research-report engine: every claim is bound to immutable evidence snapshots, verified byte-for-byte, and sealed into a versioned report whose manifest hash can be recomputed."
    },
    "npm": "dsh-research-report",
-   "stars": 211,
+   "stars": 214,
    "createdAt": "2026-08-19",
    "install": "dsh plugin --profile web add dsh-research-report",
    "added": "2026-09-13"
@@ -4426,7 +4426,7 @@
     "en": "Full DSH configuration backup, restore, export, import, migrate and sync: settings, providers, plugins, MCP servers, skills, agent presets and workspaces in one ZIP, with encrypted backups, Git/WebDAV sync and a configuration marketplace."
    },
    "npm": "dsh-config-manager",
-   "stars": 150,
+   "stars": 176,
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add dsh-config-manager",
    "added": "2026-08-23"
@@ -5281,7 +5281,7 @@
     "en": "Persistent, cross-session multi-agent team rooms for DeepSeek Harness — members, a message bus, a shared task board, and a shared timeline that survive restarts."
    },
    "npm": "dsh-team-rooms",
-   "stars": 4,
+   "stars": 3,
    "createdAt": "2026-09-11",
    "install": "dsh plugin --profile web add dsh-team-rooms",
    "added": "2026-09-13"
