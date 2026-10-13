@@ -2056,7 +2056,7 @@
     "en": "Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped."
    },
    "npm": "@weibaohui/dsh-smart-title",
-   "stars": 5,
+   "stars": 6,
    "createdAt": "2026-09-08",
    "install": "dsh plugin --profile web add @weibaohui/dsh-smart-title",
    "added": "2026-09-08"
@@ -3646,7 +3646,7 @@
     "en": "Read-only trading research workbench: a typed market-data seam (bring your own data source), multi-timeframe indicator regime snapshots, interactive candlestick cards in the dsh web UI (AI annotations require cited sources verified against real candle ranges), and a structurally order-blocking risk-guard."
    },
    "npm": null,
-   "stars": 37,
+   "stars": 39,
    "createdAt": "2026-08-17",
    "install": "dsh plugin --profile web add github:maddogfinance/dsh-trading",
    "added": "2026-08-19"
@@ -4186,7 +4186,7 @@
     "en": "In-conversation read-aloud with Doubao-quality voices: every AI reply gets a 🔊 tap-to-read / auto-read toggle (off by default, state persisted), with voices synthesized by the local Omi engine (Doubao seed-tts); BYOK — keys stay in your local Keychain, the plugin stores none."
    },
    "npm": "dsh-omi-voice",
-   "stars": 74,
+   "stars": 75,
    "createdAt": "2026-08-18",
    "install": "dsh plugin --profile web add dsh-omi-voice",
    "added": "2026-08-18"
@@ -5956,7 +5956,7 @@
     "en": "Runs the logged-in Claude Code CLI as an LLM provider for dsh: live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes."
    },
    "npm": "dsh-oh-my-claude",
-   "stars": 8,
+   "stars": 10,
    "createdAt": "2026-09-11",
    "install": "dsh plugin --profile web add dsh-oh-my-claude",
    "added": "2026-09-22"
