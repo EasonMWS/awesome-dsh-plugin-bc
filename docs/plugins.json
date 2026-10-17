@@ -1246,7 +1246,7 @@
     "en": "Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import)."
    },
    "npm": "@weibaohui/dsh-dashboard",
-   "stars": 0,
+   "stars": 1,
    "createdAt": "2026-09-27",
    "install": "dsh plugin --profile web add @weibaohui/dsh-dashboard",
    "added": "2026-10-10"
@@ -1906,7 +1906,7 @@
     "en": "Execution maze for DSH sessions: main path, detours and backtracks on one timeline with per-step data tracks (tools, tokens, context pressure), deterministic analysis (outcome evidence, behavior signals) and comparison of up to five sessions; reads session logs and renders live inside a session tab."
    },
    "npm": "dsh-maze",
-   "stars": 85,
+   "stars": 86,
    "createdAt": "2026-08-18",
    "install": "dsh plugin --profile web add dsh-maze",
    "added": "2026-10-10"
@@ -2161,7 +2161,7 @@
     "en": "Connects DSH agents to Busabase through MCP tools, approval-aware ChangeRequests, result cards, and a live record inspector."
    },
    "npm": "@busabase/dsh-plugin",
-   "stars": 6,
+   "stars": 7,
    "createdAt": "2026-09-02",
    "install": "dsh plugin --profile web add @busabase/dsh-plugin",
    "added": "2026-09-12"
@@ -3076,7 +3076,7 @@
     "en": "Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval."
    },
    "npm": null,
-   "stars": 0,
+   "stars": 1,
    "createdAt": "2026-10-01",
    "install": "dsh plugin --profile web add github:Han-1413141/dsh-codex-computer-use",
    "added": "2026-10-10"
@@ -3571,7 +3571,7 @@
     "en": "Integrates TypeSafe Jev for skill and file selection, task supervision, shared-finding corrections, tool-output filtering, approval assistance, and recorded-stage navigation in DeepSeek Harness; all features are disabled by default."
    },
    "npm": null,
-   "stars": 201,
+   "stars": 207,
    "createdAt": "2026-09-27",
    "install": "dsh plugin --profile web add github:luobosibing2/dsh-jev-plugin",
    "added": "2026-10-10"
@@ -3736,7 +3736,7 @@
     "en": "Tavily search, extract, map and crawl tools with multi-key rotation, failover on HTTP 401/429/432/433, and a load-balance mode that caps in-flight requests per Tavily account; a key and usage card on the Plugins page. The built-in web_search is never replaced."
    },
    "npm": null,
-   "stars": 10,
+   "stars": 12,
    "createdAt": "2026-08-15",
    "install": "dsh plugin --profile web add github:moguiyu/dsh-tavily",
    "added": "2026-10-10"
@@ -3781,7 +3781,7 @@
     "en": "Large-image recognition for vision models: 800×800 lossless tiling (smart/pipeline/full strategies) plus local OCR (auto inversion/binarization/handwriting split) and optional multi-vendor GPU acceleration (DirectML covering NVIDIA/AMD/Intel, CUDA/OpenVINO) with automatic CPU fallback; MIT licensed (111 unit tests)."
    },
    "npm": null,
-   "stars": 2,
+   "stars": 3,
    "createdAt": "2026-09-10",
    "install": "dsh plugin --profile web add github:Nicholaskin/vision-exp-tile",
    "added": "2026-09-12"
@@ -4096,7 +4096,7 @@
     "en": "Laya typed decisions (noul yes/no, choice, score) as a first-class Cordis service plus the laya_ask and laya_plan tools; a client of a self-started laya-mcp sidecar, so it installs nothing itself."
    },
    "npm": null,
-   "stars": 6,
+   "stars": 7,
    "createdAt": "2026-09-21",
    "install": "dsh plugin --profile web add github:PerryLink/dsh-laya",
    "added": "2026-09-22"
@@ -6061,7 +6061,7 @@
     "en": "Organ-based plugin layer: plugins declare capabilities, senses and reflexes, a nerve impulse routes each command to the organ that owns it, reflex arcs fire with zero model calls, quiet periods consolidate run history into memory cards, and a failing organ heals through attribution, prescription and re-check."
    },
    "npm": null,
-   "stars": 16,
+   "stars": 17,
    "createdAt": "2026-09-11",
    "install": "dsh plugin --profile web add github:1420079678-ctrl/agent-body",
    "added": "2026-10-10"
@@ -7561,7 +7561,7 @@
     "en": "Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load, with cross-links, favorites, priority subjects and importing your own knowledge base."
    },
    "npm": null,
-   "stars": 2,
+   "stars": 4,
    "createdAt": "2026-09-18",
    "install": "dsh plugin --profile web add github:weibaohui/dsh-gaokao",
    "added": "2026-10-10"
